@@ -1,0 +1,691 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01DD21CE5C183655E44D6813 /* NewsGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E9199B07CCE4F0FB75F529 /* NewsGenerator.swift */; };
+		0325DB4DC505E6565D06ECB7 /* ChartControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BC309307367A1ABA834555 /* ChartControls.swift */; };
+		0334A0C24E022E673F2C6925 /* WatchlistSidebar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50C9188B5B1F1C19C8FA273 /* WatchlistSidebar.swift */; };
+		0597432FD4A2F8F99DEE7290 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F80A30550E6E313F6264FF /* main.swift */; };
+		070FC7C1200DD2B081236ADA /* MainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8575DE26C8BE98D33E6AB0B3 /* MainMenu.swift */; };
+		0E7E03487BD782E9775EA772 /* OptionsChainPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEC022B3874B2933913FD7F /* OptionsChainPanel.swift */; };
+		13F24E4E8BA2447385E2171C /* SeededGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C3CCD28F95F0D3D632E9CF /* SeededGenerator.swift */; };
+		1E27A131AADFC704A7D636BB /* ChartPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2402128DD57165E927380A68 /* ChartPanel.swift */; };
+		26A3B6B44DB4F4098C0C0C72 /* OrderEntryPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538E137646FB46BF1F53D15F /* OrderEntryPanel.swift */; };
+		2950B66BBF2E3DB2B9ABD925 /* Views.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2302247A30A8EBDFEB3F324E /* Views.swift */; };
+		405AC979D81FF258A6E38CF5 /* TimeAndSalesPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234FEA76B79088A3CEB7FC80 /* TimeAndSalesPanel.swift */; };
+		43D013DBB6082B993A6B2DE4 /* AlertsPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA7BCE545C510BDA3D1BCCE /* AlertsPanel.swift */; };
+		445DD743CA8C8C503A59D0B5 /* MarketsPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B751AF9ECA0E10C3D82D86 /* MarketsPanel.swift */; };
+		491097BB0C47D0E64D0A8799 /* MarketSimulator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F63178D1C4778449EB4533 /* MarketSimulator.swift */; };
+		4ED6CC9D7ED4D38DE1D4C3ED /* PositionsPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274998829B7F1AB855106166 /* PositionsPanel.swift */; };
+		54E7E4E6E43275A748F11A3B /* SparklineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F812EA6C708A3D04BAE80FB /* SparklineView.swift */; };
+		55652BF85D021AF17196CB4B /* MarketModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908C6F6F8690CD33D74D4128 /* MarketModels.swift */; };
+		59EACB2BDBE89DFD9D2D1D36 /* ResearchPanels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9847E164B56185435C6D785E /* ResearchPanels.swift */; };
+		5C3CBFD2E869CFC40D116666 /* StatusBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6ACE95A34F4B8F23931E483 /* StatusBarView.swift */; };
+		67234EB6207FC520C5A487CE /* RightRailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360975218A3269A3F97BBD82 /* RightRailView.swift */; };
+		7022AC6C9895027ADAC4A8FF /* PanelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA46CEB807D6326C4569A37F /* PanelViewController.swift */; };
+		7083416A003E387EAF310D85 /* QuoteHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A434D4541319E8C0D5917D4B /* QuoteHeaderView.swift */; };
+		72C7E1C27B110FA5ECCABCDB /* OptionChain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372E5A890355044ACD10A13B /* OptionChain.swift */; };
+		72CB6895217FCBE00F740ED0 /* ResearchGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDA09AC661F8B2831F792D0 /* ResearchGenerator.swift */; };
+		75A0481FBB4718D140A0DD58 /* TradingModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985604820D6043C4A8C614B8 /* TradingModels.swift */; };
+		77AB7302B5BF1FD93C3FFBEB /* TabStripView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072A7077F07C8843566B2B06 /* TabStripView.swift */; };
+		823EF0AA830157E5992636A6 /* InstrumentCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F02C74C0B583D5EDAE43307 /* InstrumentCatalog.swift */; };
+		850BE60D0437A815D471727E /* SettingsWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21E2C6DAE859E899E6ABCEEC /* SettingsWindowController.swift */; };
+		86CB204D34D1AA771701C224 /* NewsPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E986178F77CF54569A04A0 /* NewsPanel.swift */; };
+		87C1730C5DE5279585D407F9 /* StockPagePanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0639C3ECA9574ADFA77EC899 /* StockPagePanel.swift */; };
+		8D491DCE77B9A3A54F464417 /* Formatters.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCD6F84EACB61B6BA690225 /* Formatters.swift */; };
+		9202FD38757D52CBB485DFED /* CandleChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B5975B05257AE3EDC0651B /* CandleChartView.swift */; };
+		96B3F50E8800C1578F5958AC /* PaperBroker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6FF3D1DC56ED91B2D63EBC3 /* PaperBroker.swift */; };
+		977A89554F8127BAB54A3777 /* DataTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E12CA807A5207488F1383ED /* DataTableView.swift */; };
+		97C377C585453A978724A91E /* ToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C359470771F09F9F69F071 /* ToastView.swift */; };
+		97C439D5184D068654E264A5 /* MoversPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66317F1BAE64D7A4C4632E2 /* MoversPanel.swift */; };
+		A395B4C511BDC8C28E613104 /* ScreenerPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2ABD2049984A360554008D /* ScreenerPanel.swift */; };
+		A717109FF5CC919727C199F2 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403C7407F50EC3830D5D1249 /* Theme.swift */; };
+		B1BD7F8D3026D8F883D0C219 /* MainWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E0ECEBCA3111BC3E52D94A /* MainWindowController.swift */; };
+		C08EFFD9048A1050549417DF /* AppEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = F096307E8D2A3D84F49194B5 /* AppEnvironment.swift */; };
+		C142C635B649CF63F01CFCE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B60B3276419CE874C3B4B5F /* AppDelegate.swift */; };
+		C24D1306E1ECAFF1613DE610 /* MarketSimulatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B525798CCDFEDDEBB867AD4B /* MarketSimulatorTests.swift */; };
+		C5185E67F2A26EAAF9C2FA8C /* Level2Panel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2549D8F5BA6C6AA2CFC7A2D /* Level2Panel.swift */; };
+		CB3A0D9C99C79489D81E7CE4 /* AccountPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DFD83326924DCFFD9E56353 /* AccountPanel.swift */; };
+		DB892EAEB9C0DFE7D83A675C /* AlertStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC8661152A074ABEE839A3A /* AlertStore.swift */; };
+		E412FB10418097C9D072D2DD /* OrdersPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D61AB41B4A125A81EF9BFBF /* OrdersPanel.swift */; };
+		E9F3ED30992FE02213DA79D7 /* Workspace.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70957BD5B0773211E2AB412 /* Workspace.swift */; };
+		EAF8474CCA3AAA1A28F285C2 /* Signal.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6EB0324EC6A75389114B5F /* Signal.swift */; };
+		F05E35AE4B93FFD570B3FFE7 /* TopToolbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C8F9A3FD80F34B21DE3E92F /* TopToolbarView.swift */; };
+		F793D41D6A0A0275893820DB /* PaperBrokerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA7913FECF7AD32B51C1F03 /* PaperBrokerTests.swift */; };
+		FE4F317A89490F81CB17A1B8 /* KeyStatsPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8025862236875CDC184A2ED5 /* KeyStatsPanel.swift */; };
+		FF140A9106C0DABFA6A156AE /* WatchlistPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B8A116CF4187934BB5D6CDC /* WatchlistPanel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3E9202FBCA651E4872CEDB72 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 380F0D7775F0C722DC4A93AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBF94F81204C3FEC90555855;
+			remoteInfo = OpenWebull;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00F80A30550E6E313F6264FF /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		0639C3ECA9574ADFA77EC899 /* StockPagePanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockPagePanel.swift; sourceTree = "<group>"; };
+		072A7077F07C8843566B2B06 /* TabStripView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabStripView.swift; sourceTree = "<group>"; };
+		09E9199B07CCE4F0FB75F529 /* NewsGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsGenerator.swift; sourceTree = "<group>"; };
+		0FDA09AC661F8B2831F792D0 /* ResearchGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResearchGenerator.swift; sourceTree = "<group>"; };
+		1B60B3276419CE874C3B4B5F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1B8A116CF4187934BB5D6CDC /* WatchlistPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchlistPanel.swift; sourceTree = "<group>"; };
+		1FC8661152A074ABEE839A3A /* AlertStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertStore.swift; sourceTree = "<group>"; };
+		21E2C6DAE859E899E6ABCEEC /* SettingsWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsWindowController.swift; sourceTree = "<group>"; };
+		2302247A30A8EBDFEB3F324E /* Views.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views.swift; sourceTree = "<group>"; };
+		234FEA76B79088A3CEB7FC80 /* TimeAndSalesPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeAndSalesPanel.swift; sourceTree = "<group>"; };
+		2402128DD57165E927380A68 /* ChartPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartPanel.swift; sourceTree = "<group>"; };
+		274998829B7F1AB855106166 /* PositionsPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PositionsPanel.swift; sourceTree = "<group>"; };
+		2F4B32E48459E571B6E4F0AF /* OpenWebullTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenWebullTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		320016C85BEE8EA2E061DD46 /* OpenWebull.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenWebull.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		360975218A3269A3F97BBD82 /* RightRailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RightRailView.swift; sourceTree = "<group>"; };
+		372E5A890355044ACD10A13B /* OptionChain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionChain.swift; sourceTree = "<group>"; };
+		3DA7BCE545C510BDA3D1BCCE /* AlertsPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertsPanel.swift; sourceTree = "<group>"; };
+		403C7407F50EC3830D5D1249 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		47B751AF9ECA0E10C3D82D86 /* MarketsPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketsPanel.swift; sourceTree = "<group>"; };
+		4D61AB41B4A125A81EF9BFBF /* OrdersPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersPanel.swift; sourceTree = "<group>"; };
+		50E986178F77CF54569A04A0 /* NewsPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsPanel.swift; sourceTree = "<group>"; };
+		514AC260E3D084479C03EDAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		538E137646FB46BF1F53D15F /* OrderEntryPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderEntryPanel.swift; sourceTree = "<group>"; };
+		62B5975B05257AE3EDC0651B /* CandleChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandleChartView.swift; sourceTree = "<group>"; };
+		6C8F9A3FD80F34B21DE3E92F /* TopToolbarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopToolbarView.swift; sourceTree = "<group>"; };
+		6E12CA807A5207488F1383ED /* DataTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTableView.swift; sourceTree = "<group>"; };
+		6F02C74C0B583D5EDAE43307 /* InstrumentCatalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstrumentCatalog.swift; sourceTree = "<group>"; };
+		6F812EA6C708A3D04BAE80FB /* SparklineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SparklineView.swift; sourceTree = "<group>"; };
+		76F63178D1C4778449EB4533 /* MarketSimulator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketSimulator.swift; sourceTree = "<group>"; };
+		8025862236875CDC184A2ED5 /* KeyStatsPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyStatsPanel.swift; sourceTree = "<group>"; };
+		8575DE26C8BE98D33E6AB0B3 /* MainMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenu.swift; sourceTree = "<group>"; };
+		8DFD83326924DCFFD9E56353 /* AccountPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountPanel.swift; sourceTree = "<group>"; };
+		8EA7913FECF7AD32B51C1F03 /* PaperBrokerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaperBrokerTests.swift; sourceTree = "<group>"; };
+		908C6F6F8690CD33D74D4128 /* MarketModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketModels.swift; sourceTree = "<group>"; };
+		94E0ECEBCA3111BC3E52D94A /* MainWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainWindowController.swift; sourceTree = "<group>"; };
+		9847E164B56185435C6D785E /* ResearchPanels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResearchPanels.swift; sourceTree = "<group>"; };
+		985604820D6043C4A8C614B8 /* TradingModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradingModels.swift; sourceTree = "<group>"; };
+		A1C3CCD28F95F0D3D632E9CF /* SeededGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeededGenerator.swift; sourceTree = "<group>"; };
+		A434D4541319E8C0D5917D4B /* QuoteHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteHeaderView.swift; sourceTree = "<group>"; };
+		B50C9188B5B1F1C19C8FA273 /* WatchlistSidebar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchlistSidebar.swift; sourceTree = "<group>"; };
+		B525798CCDFEDDEBB867AD4B /* MarketSimulatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketSimulatorTests.swift; sourceTree = "<group>"; };
+		B66317F1BAE64D7A4C4632E2 /* MoversPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoversPanel.swift; sourceTree = "<group>"; };
+		B6ACE95A34F4B8F23931E483 /* StatusBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBarView.swift; sourceTree = "<group>"; };
+		BA46CEB807D6326C4569A37F /* PanelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PanelViewController.swift; sourceTree = "<group>"; };
+		BC6EB0324EC6A75389114B5F /* Signal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Signal.swift; sourceTree = "<group>"; };
+		BDEC022B3874B2933913FD7F /* OptionsChainPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsChainPanel.swift; sourceTree = "<group>"; };
+		C6FF3D1DC56ED91B2D63EBC3 /* PaperBroker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaperBroker.swift; sourceTree = "<group>"; };
+		C9BC309307367A1ABA834555 /* ChartControls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartControls.swift; sourceTree = "<group>"; };
+		CC2ABD2049984A360554008D /* ScreenerPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenerPanel.swift; sourceTree = "<group>"; };
+		CFCD6F84EACB61B6BA690225 /* Formatters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Formatters.swift; sourceTree = "<group>"; };
+		D0C359470771F09F9F69F071 /* ToastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastView.swift; sourceTree = "<group>"; };
+		E2549D8F5BA6C6AA2CFC7A2D /* Level2Panel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level2Panel.swift; sourceTree = "<group>"; };
+		E70957BD5B0773211E2AB412 /* Workspace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workspace.swift; sourceTree = "<group>"; };
+		F096307E8D2A3D84F49194B5 /* AppEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEnvironment.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		086BE226B98FA770D877AC6D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				320016C85BEE8EA2E061DD46 /* OpenWebull.app */,
+				2F4B32E48459E571B6E4F0AF /* OpenWebullTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1825F5EF1938875CE9A17B2A /* Panels */ = {
+			isa = PBXGroup;
+			children = (
+				8DFD83326924DCFFD9E56353 /* AccountPanel.swift */,
+				3DA7BCE545C510BDA3D1BCCE /* AlertsPanel.swift */,
+				2402128DD57165E927380A68 /* ChartPanel.swift */,
+				8025862236875CDC184A2ED5 /* KeyStatsPanel.swift */,
+				E2549D8F5BA6C6AA2CFC7A2D /* Level2Panel.swift */,
+				47B751AF9ECA0E10C3D82D86 /* MarketsPanel.swift */,
+				B66317F1BAE64D7A4C4632E2 /* MoversPanel.swift */,
+				50E986178F77CF54569A04A0 /* NewsPanel.swift */,
+				BDEC022B3874B2933913FD7F /* OptionsChainPanel.swift */,
+				538E137646FB46BF1F53D15F /* OrderEntryPanel.swift */,
+				4D61AB41B4A125A81EF9BFBF /* OrdersPanel.swift */,
+				BA46CEB807D6326C4569A37F /* PanelViewController.swift */,
+				274998829B7F1AB855106166 /* PositionsPanel.swift */,
+				A434D4541319E8C0D5917D4B /* QuoteHeaderView.swift */,
+				9847E164B56185435C6D785E /* ResearchPanels.swift */,
+				CC2ABD2049984A360554008D /* ScreenerPanel.swift */,
+				0639C3ECA9574ADFA77EC899 /* StockPagePanel.swift */,
+				234FEA76B79088A3CEB7FC80 /* TimeAndSalesPanel.swift */,
+				1B8A116CF4187934BB5D6CDC /* WatchlistPanel.swift */,
+				B50C9188B5B1F1C19C8FA273 /* WatchlistSidebar.swift */,
+			);
+			path = Panels;
+			sourceTree = "<group>";
+		};
+		2636A41909CEEB0D58035E46 /* Trading */ = {
+			isa = PBXGroup;
+			children = (
+				1FC8661152A074ABEE839A3A /* AlertStore.swift */,
+				C6FF3D1DC56ED91B2D63EBC3 /* PaperBroker.swift */,
+			);
+			path = Trading;
+			sourceTree = "<group>";
+		};
+		2D3E22B491E4B37F58E5A6D9 /* Shell */ = {
+			isa = PBXGroup;
+			children = (
+				94E0ECEBCA3111BC3E52D94A /* MainWindowController.swift */,
+				360975218A3269A3F97BBD82 /* RightRailView.swift */,
+				B6ACE95A34F4B8F23931E483 /* StatusBarView.swift */,
+				6C8F9A3FD80F34B21DE3E92F /* TopToolbarView.swift */,
+				E70957BD5B0773211E2AB412 /* Workspace.swift */,
+			);
+			path = Shell;
+			sourceTree = "<group>";
+		};
+		3811E6DE0594934A05A23B4E /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				CDFA71F48811B86F9272D0A1 /* Chart */,
+				A17B1FDA2FB3408B8AAE4AB4 /* Components */,
+				1825F5EF1938875CE9A17B2A /* Panels */,
+				53E97A61E72D1326E00184E1 /* Settings */,
+				2D3E22B491E4B37F58E5A6D9 /* Shell */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		489D6ECF022781DD2BF88BF0 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				1B60B3276419CE874C3B4B5F /* AppDelegate.swift */,
+				F096307E8D2A3D84F49194B5 /* AppEnvironment.swift */,
+				00F80A30550E6E313F6264FF /* main.swift */,
+				8575DE26C8BE98D33E6AB0B3 /* MainMenu.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		53E97A61E72D1326E00184E1 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				21E2C6DAE859E899E6ABCEEC /* SettingsWindowController.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		6EE0A4F653BA1A4EDD49ED55 /* OpenWebullTests */ = {
+			isa = PBXGroup;
+			children = (
+				B525798CCDFEDDEBB867AD4B /* MarketSimulatorTests.swift */,
+				8EA7913FECF7AD32B51C1F03 /* PaperBrokerTests.swift */,
+			);
+			path = OpenWebullTests;
+			sourceTree = "<group>";
+		};
+		8032B53CF931235527C56C37 /* OpenWebull */ = {
+			isa = PBXGroup;
+			children = (
+				514AC260E3D084479C03EDAF /* Info.plist */,
+				489D6ECF022781DD2BF88BF0 /* App */,
+				EC451FB7F9EF85488831652F /* Core */,
+				FD567347F8F1623CE1BF7471 /* Market */,
+				857493122287799D0E63B265 /* Model */,
+				2636A41909CEEB0D58035E46 /* Trading */,
+				3811E6DE0594934A05A23B4E /* UI */,
+			);
+			path = OpenWebull;
+			sourceTree = "<group>";
+		};
+		857493122287799D0E63B265 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				908C6F6F8690CD33D74D4128 /* MarketModels.swift */,
+				985604820D6043C4A8C614B8 /* TradingModels.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A17B1FDA2FB3408B8AAE4AB4 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				6E12CA807A5207488F1383ED /* DataTableView.swift */,
+				6F812EA6C708A3D04BAE80FB /* SparklineView.swift */,
+				072A7077F07C8843566B2B06 /* TabStripView.swift */,
+				D0C359470771F09F9F69F071 /* ToastView.swift */,
+				2302247A30A8EBDFEB3F324E /* Views.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		C111D245155BC7F2A44B5DB4 = {
+			isa = PBXGroup;
+			children = (
+				8032B53CF931235527C56C37 /* OpenWebull */,
+				6EE0A4F653BA1A4EDD49ED55 /* OpenWebullTests */,
+				086BE226B98FA770D877AC6D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CDFA71F48811B86F9272D0A1 /* Chart */ = {
+			isa = PBXGroup;
+			children = (
+				62B5975B05257AE3EDC0651B /* CandleChartView.swift */,
+				C9BC309307367A1ABA834555 /* ChartControls.swift */,
+			);
+			path = Chart;
+			sourceTree = "<group>";
+		};
+		EC451FB7F9EF85488831652F /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				CFCD6F84EACB61B6BA690225 /* Formatters.swift */,
+				A1C3CCD28F95F0D3D632E9CF /* SeededGenerator.swift */,
+				BC6EB0324EC6A75389114B5F /* Signal.swift */,
+				403C7407F50EC3830D5D1249 /* Theme.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		FD567347F8F1623CE1BF7471 /* Market */ = {
+			isa = PBXGroup;
+			children = (
+				6F02C74C0B583D5EDAE43307 /* InstrumentCatalog.swift */,
+				76F63178D1C4778449EB4533 /* MarketSimulator.swift */,
+				09E9199B07CCE4F0FB75F529 /* NewsGenerator.swift */,
+				372E5A890355044ACD10A13B /* OptionChain.swift */,
+				0FDA09AC661F8B2831F792D0 /* ResearchGenerator.swift */,
+			);
+			path = Market;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		81B995DD65C2E35FBA107F61 /* OpenWebullTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C7BBD2D3D7165B052E9CF2B /* Build configuration list for PBXNativeTarget "OpenWebullTests" */;
+			buildPhases = (
+				B8D0BCFD1EABD7C62645527D /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20C2F88BE6738834D22F3AC7 /* PBXTargetDependency */,
+			);
+			name = OpenWebullTests;
+			packageProductDependencies = (
+			);
+			productName = OpenWebullTests;
+			productReference = 2F4B32E48459E571B6E4F0AF /* OpenWebullTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EBF94F81204C3FEC90555855 /* OpenWebull */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEEA24536508D4385C87183B /* Build configuration list for PBXNativeTarget "OpenWebull" */;
+			buildPhases = (
+				97A2E8D70B3E4D1DC7B63C51 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpenWebull;
+			packageProductDependencies = (
+			);
+			productName = OpenWebull;
+			productReference = 320016C85BEE8EA2E061DD46 /* OpenWebull.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		380F0D7775F0C722DC4A93AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					81B995DD65C2E35FBA107F61 = {
+						ProvisioningStyle = Manual;
+					};
+					EBF94F81204C3FEC90555855 = {
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 95E13EFBB2F8F3D764A92680 /* Build configuration list for PBXProject "OpenWebull" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = C111D245155BC7F2A44B5DB4;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 086BE226B98FA770D877AC6D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EBF94F81204C3FEC90555855 /* OpenWebull */,
+				81B995DD65C2E35FBA107F61 /* OpenWebullTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		97A2E8D70B3E4D1DC7B63C51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB3A0D9C99C79489D81E7CE4 /* AccountPanel.swift in Sources */,
+				DB892EAEB9C0DFE7D83A675C /* AlertStore.swift in Sources */,
+				43D013DBB6082B993A6B2DE4 /* AlertsPanel.swift in Sources */,
+				C142C635B649CF63F01CFCE2 /* AppDelegate.swift in Sources */,
+				C08EFFD9048A1050549417DF /* AppEnvironment.swift in Sources */,
+				9202FD38757D52CBB485DFED /* CandleChartView.swift in Sources */,
+				0325DB4DC505E6565D06ECB7 /* ChartControls.swift in Sources */,
+				1E27A131AADFC704A7D636BB /* ChartPanel.swift in Sources */,
+				977A89554F8127BAB54A3777 /* DataTableView.swift in Sources */,
+				8D491DCE77B9A3A54F464417 /* Formatters.swift in Sources */,
+				823EF0AA830157E5992636A6 /* InstrumentCatalog.swift in Sources */,
+				FE4F317A89490F81CB17A1B8 /* KeyStatsPanel.swift in Sources */,
+				C5185E67F2A26EAAF9C2FA8C /* Level2Panel.swift in Sources */,
+				070FC7C1200DD2B081236ADA /* MainMenu.swift in Sources */,
+				B1BD7F8D3026D8F883D0C219 /* MainWindowController.swift in Sources */,
+				55652BF85D021AF17196CB4B /* MarketModels.swift in Sources */,
+				491097BB0C47D0E64D0A8799 /* MarketSimulator.swift in Sources */,
+				445DD743CA8C8C503A59D0B5 /* MarketsPanel.swift in Sources */,
+				97C439D5184D068654E264A5 /* MoversPanel.swift in Sources */,
+				01DD21CE5C183655E44D6813 /* NewsGenerator.swift in Sources */,
+				86CB204D34D1AA771701C224 /* NewsPanel.swift in Sources */,
+				72C7E1C27B110FA5ECCABCDB /* OptionChain.swift in Sources */,
+				0E7E03487BD782E9775EA772 /* OptionsChainPanel.swift in Sources */,
+				26A3B6B44DB4F4098C0C0C72 /* OrderEntryPanel.swift in Sources */,
+				E412FB10418097C9D072D2DD /* OrdersPanel.swift in Sources */,
+				7022AC6C9895027ADAC4A8FF /* PanelViewController.swift in Sources */,
+				96B3F50E8800C1578F5958AC /* PaperBroker.swift in Sources */,
+				4ED6CC9D7ED4D38DE1D4C3ED /* PositionsPanel.swift in Sources */,
+				7083416A003E387EAF310D85 /* QuoteHeaderView.swift in Sources */,
+				72CB6895217FCBE00F740ED0 /* ResearchGenerator.swift in Sources */,
+				59EACB2BDBE89DFD9D2D1D36 /* ResearchPanels.swift in Sources */,
+				67234EB6207FC520C5A487CE /* RightRailView.swift in Sources */,
+				A395B4C511BDC8C28E613104 /* ScreenerPanel.swift in Sources */,
+				13F24E4E8BA2447385E2171C /* SeededGenerator.swift in Sources */,
+				850BE60D0437A815D471727E /* SettingsWindowController.swift in Sources */,
+				EAF8474CCA3AAA1A28F285C2 /* Signal.swift in Sources */,
+				54E7E4E6E43275A748F11A3B /* SparklineView.swift in Sources */,
+				5C3CBFD2E869CFC40D116666 /* StatusBarView.swift in Sources */,
+				87C1730C5DE5279585D407F9 /* StockPagePanel.swift in Sources */,
+				77AB7302B5BF1FD93C3FFBEB /* TabStripView.swift in Sources */,
+				A717109FF5CC919727C199F2 /* Theme.swift in Sources */,
+				405AC979D81FF258A6E38CF5 /* TimeAndSalesPanel.swift in Sources */,
+				97C377C585453A978724A91E /* ToastView.swift in Sources */,
+				F05E35AE4B93FFD570B3FFE7 /* TopToolbarView.swift in Sources */,
+				75A0481FBB4718D140A0DD58 /* TradingModels.swift in Sources */,
+				2950B66BBF2E3DB2B9ABD925 /* Views.swift in Sources */,
+				FF140A9106C0DABFA6A156AE /* WatchlistPanel.swift in Sources */,
+				0334A0C24E022E673F2C6925 /* WatchlistSidebar.swift in Sources */,
+				E9F3ED30992FE02213DA79D7 /* Workspace.swift in Sources */,
+				0597432FD4A2F8F99DEE7290 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8D0BCFD1EABD7C62645527D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C24D1306E1ECAFF1613DE610 /* MarketSimulatorTests.swift in Sources */,
+				F793D41D6A0A0275893820DB /* PaperBrokerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		20C2F88BE6738834D22F3AC7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBF94F81204C3FEC90555855 /* OpenWebull */;
+			targetProxy = 3E9202FBCA651E4872CEDB72 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		18D5077BA2210B17ADA51A6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = OpenWebull/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.openwebull.desktop;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		21C101D3C108346E46069F5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.openwebull.desktop.tests;
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenWebull.app/Contents/MacOS/OpenWebull";
+			};
+			name = Debug;
+		};
+		4822FF75D5C9535DC8C4CE5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = OpenWebull/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.openwebull.desktop;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5D5A8C0EE615992F37DC6745 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		5EB224CBAF53C6832E09B964 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.openwebull.desktop.tests;
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenWebull.app/Contents/MacOS/OpenWebull";
+			};
+			name = Release;
+		};
+		61FF787C1D26C7C2FCEFE3EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8C7BBD2D3D7165B052E9CF2B /* Build configuration list for PBXNativeTarget "OpenWebullTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21C101D3C108346E46069F5A /* Debug */,
+				5EB224CBAF53C6832E09B964 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		95E13EFBB2F8F3D764A92680 /* Build configuration list for PBXProject "OpenWebull" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D5A8C0EE615992F37DC6745 /* Debug */,
+				61FF787C1D26C7C2FCEFE3EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		AEEA24536508D4385C87183B /* Build configuration list for PBXNativeTarget "OpenWebull" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18D5077BA2210B17ADA51A6E /* Debug */,
+				4822FF75D5C9535DC8C4CE5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 380F0D7775F0C722DC4A93AB /* Project object */;
+}
